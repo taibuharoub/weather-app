@@ -3,7 +3,7 @@ import * as ELEMENTS from "./elements.js";
 import {Http} from "./http.js"
 import {WeatherData, WEATHER_PROXY_HANDLER} from "./weather-data.js"
 
-const API_ID = "" //put openweather api key
+const API_ID = "" //put your openweather api key
 
 ELEMENTS.ELEMENT_SEARCH_BUTTON.addEventListener("click", searchWeather);
 
